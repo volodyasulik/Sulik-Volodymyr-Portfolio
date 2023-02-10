@@ -263,3 +263,193 @@ header .secect-lengvich option {
   height: 35px;
   font-size: 20px;
 }
+
+@media (max-width: 1200px) {
+  header .secect-lengvich {
+    width: 5.5%;
+  }
+  .me .me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .me .me-content .my-bio {
+    transform: translate(0);
+  }
+  .about-me .container .skills .skills-list .skills-item {
+    font-size: 30px;
+  }
+
+  .lng-title,
+  .lng-title-about-me,
+  .lng-education-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .about-me .container .inform .lng-text {
+    font-size: 15px;
+  }
+
+  .education-list .list-item {
+    margin-bottom: 10px;
+  }
+
+  .lng-junior,
+  .lng-80-task,
+  .lng-react {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .me .me-content {
+    padding: 5rem 8rem 3rem 8rem;
+  }
+  .me .me-content .my-photo {
+    width: 330px;
+    height: 330px;
+  }
+  .me .me-content .my-bio .lng-name {
+    font-size: 40px;
+    margin-top: 27px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem 3rem 7rem;
+  }
+
+  .lng-title-about-me {
+    margin-top: 15px;
+  }
+  .education-list {
+    width: 151%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 2rem;
+  }
+  .me .me-content .my-bio {
+    width: 140%;
+  }
+  header .secect-lengvich {
+    width: 6.5%;
+    font-size: 13px;
+  }
+  .me .me-content .my-photo {
+    width: 280px;
+    height: 280px;
+  }
+  .me .me-content {
+    width: 83%;
+  }
+  .me .me-content .my-bio .lng-profession {
+    text-align: center;
+  }
+  .container {
+    width: 83%;
+    padding: 3rem 5rem 3rem 4rem;
+  }
+  .about-me .container .skills {
+    width: 360px;
+  }
+  .about-me .container .skills .skills-list .skills-item {
+    font-size: 20px;
+    padding-left: 6rem;
+  }
+  .about-me .container .inform .lng-text {
+    width: 300px;
+  }
+  .lng-title,
+  .lng-title-about-me,
+  .lng-education-title,
+  .lng-experience-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .lng-expirience-work-kitchen,
+  .lng-expirience-work-jokes,
+  .lng-expirience-work-BankApp {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .me {
+    min-height: 400px;
+  }
+  .me .me-content {
+    padding: 3rem 8rem 3rem 8rem;
+  }
+  header .secect-lengvich {
+    width: 9.5%;
+    font-size: 11px;
+  }
+  .me .me-content .my-photo {
+    width: 240px;
+    height: 240px;
+  }
+  .me .me-content .my-bio .lng-name {
+    font-size: 29px;
+    margin-top: 19px;
+  }
+  .me .me-content .my-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  .about-me .container .skills {
+    width: 250px;
+  }
+  .about-me .container .skills .skills-list .skills-item {
+    font-size: 16px;
+    padding-left: 3rem;
+  }
+  .container {
+    padding: 3rem 2rem 3rem 3rem;
+  }
+  .lng-title,
+  .lng-title-about-me,
+  .lng-education-title,
+  .lng-experience-title {
+    font-size: 26px;
+    margin-bottom: 6px;
+    margin-left: 0;
+  }
+  .about-me .container .inform .lng-text {
+    width: 220px;
+    font-size: 12px;
+  }
+  .education-list {
+    width: 300px;
+    padding-left: 20px;
+  }
+  .about-me .container .inform {
+    margin-left: 0px;
+  }
+  .lng-junior,
+  .lng-80-task,
+  .lng-react {
+    font-size: 10px;
+  }
+  .lng-jokes,
+  .lng-BankApp,
+  .lng-kitchen {
+    margin-left: 22px;
+    padding-bottom: 9px;
+    font-size: 13px;
+  }
+  .lng-phone,
+  .lng-email {
+    font-size: 15px;
+  }
+  .footer .contakts .contakts-block a {
+    font-size: 15px;
+  }
+  .link {
+    margin-right: 22px;
+  }
+}
