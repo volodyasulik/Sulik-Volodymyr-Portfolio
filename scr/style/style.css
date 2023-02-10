@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgb(73, 69, 69);
+  padding-right: 10px;
+}
+
+header .secect-lengvich {
+  width: 3.5%;
+  background-color: transparent;
+  color: white;
+  border-color: black;
+  border-width: 1.5px;
+  border-radius: 5px;
+  font-size: large;
+  text-decoration: none;
+}
+
+header .secect-lengvich:focus {
+  outline: none;
+}
+
+header .secect-lengvich option {
+  background-color: rgb(73, 69, 69);
+}
+
+.me {
+  background-color: rgb(238, 255, 0);
+  width: 100%;
+  min-height: 500px;
+}
+
+.me .me-content {
+  display: block;
+  padding: 5rem 8rem 5rem 8rem;
+  width: 70%;
+  height: 100%;
+  background-color: rgb(51, 49, 49);
+  margin: 0 auto;
+}
+.me .me-content .my-photo {
+  display: inline-block;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  border-color: white;
+}
+
+.me .me-content .my-bio {
+  display: inline-block;
+  transform: translate(10%, -145%);
+}
+
+.me .me-content .my-bio .lng-name {
+  text-align: right;
+  color: white;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+.me .me-content .my-bio .lng-profession {
+  color: white;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.about-me {
+  background-color: rgb(238, 255, 0);
+  width: 100%;
+  min-height: 200px;
+}
+
+.container {
+  display: flex;
+  border-block-start-style: dotted;
+  border-color: rgb(238, 255, 0) transparent transparent transparent;
+  border-width: 4px;
+  padding: 5rem 5rem 5rem 6rem;
+  width: 70%;
+  height: 100%;
+  background-color: rgb(51, 49, 49);
+  margin: 0 auto;
+}
+
+.experience-container {
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.about-me .container .skills {
+  border-color: rgb(238, 255, 0);
+  border-style: dotted;
+  border-width: 4px;
+  width: 400px;
+  min-height: 300px;
+}
+
+.lng-title,
+.lng-title-about-me,
+.lng-education-title,
+.lng-experience-title {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.about-me .container .skills .skills-list {
+  list-style-position: inside;
+}
+
+.about-me .container .skills .skills-list .skills-item {
+  padding-left: 25px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.about-me .container .skills .skills-list .skills-item:last-child {
+  margin-bottom: 20px;
+}
+
+.about-me .container .inform {
+  width: 51%;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.about-me .container .inform .lng-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin: 0 0 20px 20px;
+}
+
+.about-me .container .inform-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lng-expirience-work-kitchen,
+.lng-expirience-work-jokes,
+.lng-expirience-work-BankApp {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin: 0 0 30px 20px;
+}
+
+.education-list {
+  padding-left: 50px;
+}
+
+.education-list .list-item {
+  margin-bottom: 30px;
+}
+
+.education-list .list-item::marker {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.lng-junior,
+.lng-80-task,
+.lng-react {
+  color: white;
+}
+
+.experience {
+  background-color: rgb(238, 255, 0);
+  width: 100%;
+  min-height: 200px;
+}
+
+.expirience-li {
+  margin-bottom: 50px;
+}
+
+.lng-jokes,
+.lng-BankApp,
+.lng-kitchen {
+  display: block;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  color: white;
+  border-bottom: 4px dotted rgb(238, 255, 0);
+}
+
+.all-works li::marker {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.expirience-li ul li::marker {
+  color: transparent;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  background-color: rgb(73, 69, 69);
+  padding-left: 5px;
+}
+
+.footer .contakts {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .contakts .contakts-block {
+  margin-left: 30px;
+}
+
+.footer .contakts .contakts-block a {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.lng-phone,
+.lng-email {
+  margin-right: 15px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.social-messager {
+  margin-top: 20px;
+  display: flex;
+}
+
+.link {
+  margin-left: 20px;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+}
