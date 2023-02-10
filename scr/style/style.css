@@ -311,13 +311,14 @@ header .secect-lengvich option {
     height: 330px;
   }
   .me .me-content .my-bio .lng-name {
+    text-align: center;
     font-size: 40px;
     margin-top: 27px;
   }
   .container {
     display: flex;
     flex-direction: column;
-    padding: 3rem 5rem 3rem 7rem;
+    padding: 3rem 5rem 5rem 7rem;
   }
 
   .lng-title-about-me {
@@ -325,6 +326,21 @@ header .secect-lengvich option {
   }
   .education-list {
     width: 151%;
+  }
+
+  .me .me-content .my-bio .lng-profession {
+    text-align: center;
+  }
+
+  .about-me .container .skills {
+    width: 360px;
+  }
+  .about-me .container .skills .skills-list .skills-item {
+    font-size: 20px;
+    padding-left: 6rem;
+  }
+  .about-me .container .inform .lng-text {
+    width: 300px;
   }
 }
 
