@@ -17,7 +17,7 @@ const Lengvich = {
   "title-about-me": {
     ru: "Обо мне:",
     ua: "Про мене:",
-    en: "Sulik Volodymyr",
+    en: "About me",
   },
   text: {
     ru: `Ставлю цель присоединиться к дружеской и профессиональной команде, где смогу
@@ -26,7 +26,8 @@ const Lengvich = {
     ua: `Ставлю ціль приєднатися до дружньої та професійної команди,де зможу
         розвивати та примножувати свої навички розробки JavaScript й
         React.js для досягнення командних цілей!`,
-    en: `I aim to join a friendly and professional team where I can
+    en: `My aim is to
+    to join a friendly and professional team where I can
          develop and multiply my JavaScript and React.js development skills to achieve team goals!`,
   },
   "education-title": {
@@ -98,12 +99,12 @@ const Lengvich = {
   BankApp: {
     ru: "Bank App на GitHub",
     ua: "Bank App на GitHub",
-    en: "Jokes on GitHub",
+    en: "Bank App on GitHub",
   },
   kitchen: {
     ru: "Japanese kitchen на GitHub",
     ua: "Japanese kitchen на GitHub",
-    en: "Jokes on GitHub",
+    en: "Japanese kitchen  on GitHub",
   },
   jokes: {
     ru: "Jokes на GitHub",
